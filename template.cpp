@@ -2,7 +2,7 @@
 using namespace std;
 
 #define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
-#define nline '\n'
+#define nl '\n'
 typedef long long ll;
 typedef unsigned long long ull;
 typedef long double lld;
@@ -42,9 +42,10 @@ int main(){
     int tt = 1;
     cin >> tt;
 
-    while(tt--){
+    for (int tc = 1; tc <= tt; tc++) {
+        // cout << "Case " << tc << ": ";
         solve();
     }
 
     return 0;
-}   
+}
